@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="stylesheets/tictac.css">
+
+</head>
+<body>
+  <div id="msg">Tic Tac Toe</div>
+
+  <div id="grid">
+    <div class="row" id="row1"><!--Row 1-->
+      <button class="square" id="A1" onclick='button("A1")'> </button>
+      <button class="square" id="A2" onclick='button("A2")'> </button>
+      <button class="square" id="A3" onclick='button("A3")'> </button>
+    </div>
+    <div class="row" id="row2"><!--Row 2-->
+      <button class="square" id="B1" onclick='button("B1")'> </button>
+      <button class="square" id="B2" onclick='button("B2")'> </button>
+      <button class="square" id="B3" onclick='button("B3")'> </button>
+    </div>
+    <div class="row" id="row3"><!--Row 3-->
+      <button class="square" id="C1" onclick='button("C1")'> </button>
+      <button class="square" id="C2" onclick='button("C2")'> </button>
+      <button class="square" id="C3" onclick='button("C3")'> </button>
+    </div>
+
+  </div>
+  <button id="reset" onclick="reset(); resetMsg()">New Game</button>
+
+
+
+</body>
+<script src="scripts/tictac.js" type="text/javascript" charset="utf-8"></script>
+</html>

@@ -1,0 +1,37 @@
+
+
+#grid{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#grid * {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.square{
+  font-family: helvetica;
+  font-size: 45pt;
+  width: 32%;
+  height: 150px;
+  display: inline-block;
+  border-radius: 15px;
+
+}
+
+#reset{
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  height: 60px;
+  font-size: 18px;
+}
+
+#msg{
+  text-align: center;
+  font-size: 40px;
+  margin: 25px auto;
+}
