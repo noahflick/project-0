@@ -1,24 +1,25 @@
-
+body {
+    background-image: url("http://www.stockazoo.com/uploads/3/5/4/5/3545172/sky_014.jpg");
+}
 
 #grid{
   width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 #grid * {
   text-align: center;
-  padding: 10px;
-  margin: auto;
 }
 
 .square{
   font-family: helvetica;
-  font-size: 45pt;
-  width: 32%;
-  height: 150px;
+  font-size: 50px;
+  width: 149px;
+  height: 149px;
   display: inline-block;
   border-radius: 15px;
+  background-color: white;
+  vertical-align:top;
 
 }
 
@@ -35,3 +36,4 @@
   font-size: 40px;
   margin: 25px auto;
 }
+

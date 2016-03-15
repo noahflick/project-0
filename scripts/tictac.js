@@ -1,5 +1,3 @@
-
-
 var squareA1 = document.getElementById("A1");
 var squareA2 = document.getElementById("A2");
 var squareA3 = document.getElementById("A3");
@@ -31,7 +29,6 @@ function winCheck(x){
     ((board.A3 == x && board.B3 == x) && board.C3 == x) ||
     ((board.A1 == x && board.B2 == x) && board.C3 == x) ||
     ((board.A3 == x && board.B2 == x) && board.C1 == x)
-
 }
 
 function reset(){
@@ -59,7 +56,6 @@ function resetMsg(){
 }
 
 function button(str){
-
   var mark = "X"
   var x = document.getElementById(str)
   if(turn % 2 !== 0){
@@ -88,7 +84,6 @@ function button(str){
       msg.innerHTML = mark == "O" ? "X player's turn" : "O Player's Turn"
     }
 console.log(turn)
-
 }
 
 
